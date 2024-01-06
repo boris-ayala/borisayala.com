@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://borisayala.com/al-folio/sitemap.xml
+Sitemap: https://www.borisayala.com/sitemap.xml
