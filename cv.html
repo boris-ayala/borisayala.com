@@ -1,0 +1,14 @@
+---
+layout: default
+title: CV
+permalink: /cv/
+---
+{%- assign cv_pdf = '/assets/pdf/boris-ayala-cv.pdf' | relative_url -%}
+<section class="section section--wide">
+  <h1 class="visually-hidden">Curriculum Vitae</h1>
+  <p>Here’s my CV as of November 2026.</p>
+  <object class="cv-viewer" data="{{ cv_pdf }}#view=FitH&navpanes=0&pagemode=none" type="application/pdf" aria-label="Boris Ayala’s CV">
+    <p class="small">Your browser can’t show the CV here. <a href="{{ cv_pdf }}">Open the CV (PDF)</a>.</p>
+  </object>
+  <p class="small"><a href="{{ cv_pdf }}" download>Download CV (PDF)</a></p>
+</section>

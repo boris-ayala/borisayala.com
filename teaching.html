@@ -1,0 +1,17 @@
+---
+layout: default
+title: Teaching
+permalink: /teaching/
+---
+<section class="section">
+  <h1 class="visually-hidden">Teaching</h1>
+  <p>Here are a few recent syllabi. Observation reports and student evaluations available upon request.</p>
+  <ul class="courses">
+    {%- for course in site.data.courses %}
+    <li>
+      <a href="{{ '/assets/pdf/syllabi/' | append: course.file | relative_url }}" target="_blank" rel="noopener">{{ course.title }}</a>
+      <span class="term">{{ course.term }}</span>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
